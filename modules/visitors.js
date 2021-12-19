@@ -1,5 +1,5 @@
 // MIT License
-// Copyright 2017 (c) Peter Širka <petersirka@gmail.com>
+// Copyright 2017 (c) azy <its.aby@email.com>
 
 const CONCAT = [];
 const COOKIE = 'visit';

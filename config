@@ -1,6 +1,6 @@
-name                      : E-shop
-version                   : 11.0.0
-author                    : Peter Širka
+name                      : portal
+version                   : 1.0.0
+author                    : azy
 
 // Hidden super admin in the form username:password
 admin-superadmin          : admin:admin
