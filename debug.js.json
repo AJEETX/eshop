@@ -1,5 +1,5 @@
 {
-  "pid": 22880,
+  "pid": 1796,
   "stats": [
     {
       "id": null,
@@ -8,28 +8,28 @@
         "total": "3.4.13",
         "app": "1.0.0"
       },
-      "pid": 22880,
+      "pid": 1796,
       "thread": "",
       "mode": "debug",
       "overload": 0,
-      "date": "2021-12-19T07:01:19.511Z",
-      "memory": 8.28,
-      "rm": 4,
-      "fm": 23,
+      "date": "2021-12-19T07:39:42.836Z",
+      "memory": 11.42,
+      "rm": 8,
+      "fm": 15,
       "wm": 0,
       "mm": 0,
-      "om": 91,
+      "om": 66,
       "em": 0,
       "dbrm": 0,
       "dbwm": 0,
       "usage": 0,
-      "requests": 27,
+      "requests": 884,
       "pending": 0,
       "errors": 12,
       "timeouts": 0,
-      "uptime": 2,
-      "online": 1,
-      "lasterror": "2021-12-19T07:00:24.154Z Error: Command failed: gm convert \"D:\\CMS-TOTAL.js\\eshop\\tmp\\images_small_1611270911Tm8m2j.jpg\" +profile \"*\" -thumbnail \"200x150\" -filter \"Hamming\" -extent 0x0 -background \"white\" -gravity \"Center\" -extent \"200x150\" -quality 90 \"D:\\CMS-TOTAL.js\\eshop\\tmp\\images_small_1611270911Tm8m2j.jpg\"\n'gm' is not recognized as an internal or external command,\r\noperable program or batch file.\r\n\n    at ChildProcess.exithandler (child_process.js:303:12)\n    at ChildProcess.emit (events.js:311:20)\n    at maybeClose (internal/child_process.js:1021:16)\n    at Process.ChildProcess._handle.onexit (internal/child_process.js:286:5)"
+      "uptime": 37,
+      "online": 2,
+      "lasterror": "2021-12-19T07:03:47.619Z Error: Command failed: gm convert \"D:\\CMS-TOTAL.js\\eshop\\tmp\\images_small_1611270920Tdyznx.jpg\" +profile \"*\" -thumbnail \"200x150\" -filter \"Hamming\" -extent 0x0 -background \"white\" -gravity \"Center\" -extent \"200x150\" -quality 90 \"D:\\CMS-TOTAL.js\\eshop\\tmp\\images_small_1611270920Tdyznx.jpg\"\n'gm' is not recognized as an internal or external command,\r\noperable program or batch file.\r\n\n    at ChildProcess.exithandler (child_process.js:303:12)\n    at ChildProcess.emit (events.js:311:20)\n    at maybeClose (internal/child_process.js:1021:16)\n    at Socket.<anonymous> (internal/child_process.js:443:11)\n    at Socket.emit (events.js:311:20)\n    at Pipe.<anonymous> (net.js:668:12)"
     }
   ]
 }
