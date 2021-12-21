@@ -1,5 +1,5 @@
 {
-  "pid": 1796,
+  "pid": 23624,
   "stats": [
     {
       "id": null,
@@ -8,13 +8,13 @@
         "total": "3.4.13",
         "app": "1.0.0"
       },
-      "pid": 1796,
+      "pid": 23624,
       "thread": "",
       "mode": "debug",
       "overload": 0,
-      "date": "2021-12-19T07:57:42.842Z",
-      "memory": 11.19,
-      "rm": 2,
+      "date": "2021-12-21T10:34:23.468Z",
+      "memory": 14.88,
+      "rm": 3,
       "fm": 0,
       "wm": 0,
       "mm": 0,
@@ -23,13 +23,13 @@
       "dbrm": 0,
       "dbwm": 0,
       "usage": 0,
-      "requests": 1155,
+      "requests": 1060,
       "pending": 0,
-      "errors": 19,
+      "errors": 28,
       "timeouts": 0,
-      "uptime": 55,
-      "online": 2,
-      "lasterror": "2021-12-19T07:42:14.989Z Error: Command failed: gm convert \"D:\\CMS-TOTAL.js\\eshop\\tmp\\images_small_1611262202Tkvs19.jpg\" +profile \"*\" -thumbnail \"200x150\" -filter \"Hamming\" -extent 0x0 -background \"white\" -gravity \"Center\" -extent \"200x150\" -quality 90 \"D:\\CMS-TOTAL.js\\eshop\\tmp\\images_small_1611262202Tkvs19.jpg\"\n'gm' is not recognized as an internal or external command,\r\noperable program or batch file.\r\n\n    at ChildProcess.exithandler (child_process.js:303:12)\n    at ChildProcess.emit (events.js:311:20)\n    at maybeClose (internal/child_process.js:1021:16)\n    at Process.ChildProcess._handle.onexit (internal/child_process.js:286:5)"
+      "uptime": 94,
+      "online": 1,
+      "lasterror": "2021-12-21T10:12:30.348Z Error: Command failed: gm convert \"D:\\CMS-TOTAL.js\\eshop\\tmp\\images_small_1611270945Tkp1cf.jpg\" +profile \"*\" -thumbnail \"200x150\" -filter \"Hamming\" -extent 0x0 -background \"white\" -gravity \"Center\" -extent \"200x150\" -quality 90 \"D:\\CMS-TOTAL.js\\eshop\\tmp\\images_small_1611270945Tkp1cf.jpg\"\n'gm' is not recognized as an internal or external command,\r\noperable program or batch file.\r\n\n    at ChildProcess.exithandler (child_process.js:303:12)\n    at ChildProcess.emit (events.js:311:20)\n    at maybeClose (internal/child_process.js:1021:16)\n    at Process.ChildProcess._handle.onexit (internal/child_process.js:286:5)"
     }
   ]
 }
