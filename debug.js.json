@@ -1,5 +1,5 @@
 {
-  "pid": 23624,
+  "pid": 12008,
   "stats": [
     {
       "id": null,
@@ -8,28 +8,29 @@
         "total": "3.4.13",
         "app": "1.0.0"
       },
-      "pid": 23624,
+      "pid": 12008,
       "thread": "",
       "mode": "debug",
       "overload": 0,
-      "date": "2021-12-21T10:34:23.468Z",
-      "memory": 14.88,
+      "date": "2021-12-22T12:10:57.440Z",
+      "memory": 15.08,
       "rm": 3,
-      "fm": 0,
+      "fm": 1,
       "wm": 0,
       "mm": 0,
-      "om": 0,
+      "om": 146,
       "em": 0,
       "dbrm": 0,
       "dbwm": 0,
       "usage": 0,
-      "requests": 1060,
+      "requests": 1481,
       "pending": 0,
-      "errors": 28,
-      "timeouts": 0,
-      "uptime": 94,
+      "errors": 3,
+      "timeouts": 3,
+      "uptime": 222,
       "online": 1,
-      "lasterror": "2021-12-21T10:12:30.348Z Error: Command failed: gm convert \"D:\\CMS-TOTAL.js\\eshop\\tmp\\images_small_1611270945Tkp1cf.jpg\" +profile \"*\" -thumbnail \"200x150\" -filter \"Hamming\" -extent 0x0 -background \"white\" -gravity \"Center\" -extent \"200x150\" -quality 90 \"D:\\CMS-TOTAL.js\\eshop\\tmp\\images_small_1611270945Tkp1cf.jpg\"\n'gm' is not recognized as an internal or external command,\r\noperable program or batch file.\r\n\n    at ChildProcess.exithandler (child_process.js:303:12)\n    at ChildProcess.emit (events.js:311:20)\n    at maybeClose (internal/child_process.js:1021:16)\n    at Process.ChildProcess._handle.onexit (internal/child_process.js:286:5)"
+      "lasterror": "2021-12-22T11:50:39.723Z TypeError: Cannot read property 'items' of undefined\n    at eval (eval at <anonymous> (D:\\CMS-TOTAL.js\\eshop\\models\\widgets.js:1:1), <anonymous>:17:38)\n    at global.$QUERY (D:\\CMS-TOTAL.js\\eshop\\node_modules\\total.js\\index.js:504:15)\n    at Controller.exports.render (eval at <anonymous> (D:\\CMS-TOTAL.js\\eshop\\models\\widgets.js:1:1), <anonymous>:15:3)\n    at Array.<anonymous> (D:\\CMS-TOTAL.js\\eshop\\models\\pages.js:359:23)\n    at Array.AP.wait.AP.waitFor (D:\\CMS-TOTAL.js\\eshop\\node_modules\\total.js\\utils.js:5787:9)\n    at Immediate.next_wait (D:\\CMS-TOTAL.js\\eshop\\node_modules\\total.js\\utils.js:5800:7)\n    at processImmediate (internal/timers.js:458:21)",
+      "lasttimeout": "2021-12-22T11:50:42.720Z /contactz/"
     }
   ]
 }

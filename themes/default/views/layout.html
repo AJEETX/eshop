@@ -16,7 +16,7 @@
 <body data-jc="exec,binder,modificator">
 	<br />
 	<div data-jc="loading" class="ui-loading@{if !repository.loading} hidden@{fi}"></div>
-	<div data-jc="shoppingcart" data-jc-path="shoppingcart" data-jc-config="discount:@{if user}@{user.discount}@{else}0@{fi}"></div>
+	<!-- <div data-jc="shoppingcart" data-jc-path="shoppingcart" data-jc-config="discount:@{if user}@{user.discount}@{else}0@{fi}"></div> -->
 	<div data-jc="message" data-jc-config="button:@(Close)"></div>
 	<div data-jc="autocomplete"></div>
 
@@ -35,7 +35,7 @@
 		</div>
 
 		<div class="row">
-			<div class="col-md-3">
+			<!-- <div class="col-md-3">
 				<section class="categories">
 					<a href="/" class="logo"><img src="/img/aby-logo.png" alt="@{'%name'}" /></a>
 					<div class="categoriescontainer">
@@ -62,8 +62,8 @@
 					</div>
 					<button id="mainmenu"><i class="fa fa-chevron-down"></i></button>
 				</section>
-			</div>
-			<div class="col-md-9">
+			</div> -->
+			<div class="col-md-12">
 				<section class="body">
 
 					<header>
@@ -72,16 +72,16 @@
 								<a href="@{m.url}">@{if m.icon}<i class="fa fa-@{m.icon}"></i>@{fi}@{m.name}</a>
 							@{end}
 						</nav>
-						<div class="shoppingcart" data-m="shoppingcart.sum + shoppingcart">
+						<!-- <div class="shoppingcart" data-m="shoppingcart.sum + shoppingcart">
 							<a href="@{sitemap_url('checkout')}"><b data-b="shoppingcart.sum" data-b-html="'@{global.config.currency_entity}'.format(value ? value.format(2) : (0).format(2))">...</b><span>@(Your shopping cart)</span></a>
 						</div>
 						<form class="search" action="@{sitemap_url('category')}" method="get">
 							<button><i class="fa fa-search"></i></button>
 							<div><input type="text" placeholder="@(search ...)" name="q" value="@{query.q}" id="search" autocomplete="off" /></div>
-						</form>
+						</form> -->
 					</header>
 
-					<nav class="breadcrumb">
+					<!-- <nav class="breadcrumb">
 						@{foreach m in sitemap()}
 							@{if m.id === 'category'}
 								<i class="fa fa-caret-right"></i><a href="@{m.url}">@{m.name}</a>
@@ -89,7 +89,7 @@
 								<i class="fa fa-caret-right"></i><a href="@{m.url}">@{m.name}</a>
 							@{fi}
 						@{end}
-					</nav>
+					</nav> -->
 					@{body}
 				</section>
 			</div>
